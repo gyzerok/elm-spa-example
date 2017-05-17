@@ -7,8 +7,10 @@
         "src"
     ],
     "exposed-modules": [],
+    "native-modules": true,
     "dependencies": {
         "NoRedInk/elm-decode-pipeline": "3.0.0 <= v < 4.0.0",
+        "eeue56/elm-html-in-elm": "5.0.0 <= v < 6.0.0",
         "elm-community/json-extra": "2.1.0 <= v < 3.0.0",
         "elm-lang/core": "5.1.1 <= v < 6.0.0",
         "elm-lang/dom": "1.1.1 <= v < 2.0.0",

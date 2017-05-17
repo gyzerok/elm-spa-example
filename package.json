@@ -1,0 +1,9 @@
+{
+  "dependencies": {
+    "express": "^4.15.2",
+    "xhr2": "^0.1.4"
+  },
+  "scripts": {
+    "start": "elm make src/Server.elm --output=ssr.js && node server.js"
+  }
+}
